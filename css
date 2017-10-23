@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body {
+  max-width: 35em;
+  padding: 2em;
+  margin: auto;
+  color: #161616;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.box {
+  margin: auto;
+  border-radius: 2em;
+  background-color: #161616;
+  padding: 0.5em;
+}
+
+.location, .temp, .description {
+  color: white;
+}
+
+.location {
+  font-size: 1.6em;  
+}
+
+.temp {
+  font-size: 3.5em;
+  margin-bottom: -0.8em;
+}
+
+.weather-icon {
+  background-image: url("");
+  background-size: cover;
+  margin: -2em auto;
+  height: 14em;
+  width: 14em;
+  filter: invert(100%);
+}
+
+.description {
+  font-size: 1.5em;
+  margin-top: -1em;
+}

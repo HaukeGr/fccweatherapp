@@ -1,32 +1,38 @@
+/* Import font */
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 
+/* General styles */
 body {
-  max-width: 35em;
-  padding: 2em;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+  background-color: #161616;
+  background-size: cover;
+  padding: 4em;
   margin: auto;
-  color: #161616;
   font-family: 'Lato', sans-serif;
+  color: white;
   text-align: center;
 }
 
-.box {
-  margin: auto;
-  border-radius: 2em;
-  background-color: #161616;
-  padding: 0.5em;
-}
-
-.location, .temp, .description {
-  color: white;
-}
+/* Styles for box-content */
 
 .location {
-  font-size: 1.6em;  
+  font-size: 3em;  
 }
 
-.temp {
-  font-size: 3.5em;
-  margin-bottom: -0.8em;
+.temp-toggle, .temp {
+  display: inline;
+  font-size: 4em;
+}
+
+.temp-toggle:hover {
+  color: #bc8203;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
 }
 
 .weather-icon {
@@ -40,5 +46,27 @@ body {
 
 .description {
   font-size: 1.5em;
-  margin-top: -1em;
+  margin-top: -1.75em;
+}
+
+/* Styles for the dividing line */
+.line {
+  width: 23em;
+  border-radius: 10px;
+}
+
+/* Styles for content of info-box */
+.info {
+  margin: 1.5em auto;
+  max-width: 18em;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #bc8203;
+  transition: all ease-in 0.25s;
 }

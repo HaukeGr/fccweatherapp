@@ -94,3 +94,4 @@ function showIcon(weatherId, weatherDescr) {
   }
   
 }
+
